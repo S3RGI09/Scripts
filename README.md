@@ -1,5 +1,7 @@
 # Scripts
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![Build Status](https://travis-ci.org/danicuestasuarez/NMapGUI.svg?branch=develop)](https://travis-ci.org/danicuestasuarez/NMapGUI)
+
 Aqui publico los mejores scripts de mis repositorios. El repositorio tiene 7 lenguajes en total sin contar **Markdown** o **la licencia**.
 Los lenguajes de programacion que tiene el repositorio son:
 * PHP
