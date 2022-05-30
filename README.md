@@ -14,4 +14,4 @@ Los lenguajes de programacion que tiene el repositorio son:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Bugzilla
-Si tiene algun problema con los scripts, escribeme a **sergiocaseroverdial@gmail.com**
+Si tiene algun problema con los scripts, escribeme a **sergiocaseroverdial@gmail.com** o entra a [Bugzilla](https://bugzilla-s3rgi09.github.io/)
