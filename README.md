@@ -1,5 +1,5 @@
 # Scripts
-[![Mi web](https://s3rgi09.github.io/)](https://bugzilla-s3rgi09.github.io/)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 Aqui publico los mejores scripts de mis repositorios. El repositorio tiene 7 lenguajes en total sin contar **Markdown** o **la licencia**.
 Los lenguajes de programacion que tiene el repositorio son:
 * PHP
