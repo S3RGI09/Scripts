@@ -8,6 +8,7 @@ Los lenguajes de programacion que tiene el repositorio son:
 * CSS
 * HTML
 * JavaScript
+* Lua
 * Python
 * Bash
 * PowerShell
