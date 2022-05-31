@@ -1,5 +1,5 @@
 # Manual de instrucciones de Scan
-![167315668-5b6290ae-3acd-451e-abb4-10b2fd353a23](https://user-images.githubusercontent.com/96842235/169378238-ce5da0d2-f192-453a-a87f-a82055293db4.png)
+![$  Scan py (1)](https://user-images.githubusercontent.com/96842235/171235719-1050cbde-b60f-4aa4-a41b-4a68455909dc.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
