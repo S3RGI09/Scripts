@@ -1,4 +1,4 @@
-[![License-shield]](https://raw.githubusercontent.com/S3RGI09/scan/GPL-LICENCE)
+[![License-shield]](https://raw.githubusercontent.com/v1s1t0r1sh3r3/airgeddon/master/LICENSE.md)
 
 ![$  Scan py (1)](https://user-images.githubusercontent.com/96842235/171235719-1050cbde-b60f-4aa4-a41b-4a68455909dc.png)
 
