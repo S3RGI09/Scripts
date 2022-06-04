@@ -1,3 +1,5 @@
+[![License-shield]](https://raw.githubusercontent.com/S3RGI09/scan/GPL-LICENCE)
+
 ![$  Scan py (1)](https://user-images.githubusercontent.com/96842235/171235719-1050cbde-b60f-4aa4-a41b-4a68455909dc.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
