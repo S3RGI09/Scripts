@@ -1,0 +1,23 @@
+import PackageDescription
+
+let package = Package(name: "Alamofire",
+                      platforms: [.macOS(.v10_12),
+                                  .iOS(.v10),
+                                  .tvOS(.v10),
+                                  .watchOS(.v3)],
+                      products: [.library(name: "Alamofire",
+                                          targets: ["Alamofire"])],
+                      targets: [.target(name: "Alamofire",
+                                        path: "Source",
+                                        exclude: ["Info.plist"],
+                                        linkerSettings: [.linkedFramework("CFNetwork",
+                                                                          .when(platforms: [.iOS,
+                                                                                            .macOS,
+                                                                                            .tvOS,
+                                                                                            .watchOS]))]),
+                                .testTarget(name: "AlamofireTests",
+                                            dependencies: ["Alamofire"],
+                                            path: "Tests",
+                                            exclude: ["Info.plist", "Test Plans"],
+                                            resources: [.process("Resources")])],
+                      swiftLanguageVersions: [.v5])
