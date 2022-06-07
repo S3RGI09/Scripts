@@ -4,3 +4,12 @@
 ![SMPVN (1)](https://user-images.githubusercontent.com/96842235/172461946-0e7c1ac1-83d8-4aaa-85e9-ab2a2f92ea9e.png)
 
 Exploit para Meterpreter, El exploit obtiene el sistema operativo de la victima, el nombre de la computadora y el usuario. Tambien es capaz de, **usandolo junto a otro payload** sacar una **reverse shell** desde el ordenador victima. El exploit no es un script, si no que es un exploit funcional y listo para corromper el sistema victima con unas pocas lineas de codigo.
+```
+┏━┓┏┳┓┏━┓╻ ╻┏┓╻
+┗━┓┃┃┃┣━┛┃┏┛┃┗┫
+┗━┛╹ ╹╹  ┗┛ ╹ ╹
+Obteniendo informacion del sistema ...
+El sistema operativo de la victima es: Windows 10
+El nombre de la computadora es: Win-MaquinaVirtual10
+Este exploit se esta ejecutando con privilegios del usuario
+```
