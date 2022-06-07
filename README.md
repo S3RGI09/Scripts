@@ -14,6 +14,12 @@ Los lenguajes de programacion que tiene el repositorio son:
 * Python
 * Bash
 * PowerShell
+* VBScript
+* TypeScript
+* Dockerfile
+* JSON
+* Batchfile
+* Go
 * Markdown
 * Texto
 
