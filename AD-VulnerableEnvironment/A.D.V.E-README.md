@@ -26,7 +26,7 @@ Esta herramienta cubre la configuración de los siguientes ataques:
 * Silver Ticket Attack
 * PassTheHash
 * PassTheTicket
-* 
+
 ![3](https://user-images.githubusercontent.com/96842235/169857660-8d85e4b6-faef-4171-9c8e-1a835d4d2cf5.png)
 
 **Es importante remplazar algunas cosas como s3rgi09.local por el host que quieres hackear o scasero/sverdial por el usuario que quiere hackear.**
