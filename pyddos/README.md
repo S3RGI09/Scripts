@@ -1,5 +1,8 @@
-# PyDDoS
+![68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d47504c25323076332532422d626c75652e7376673f7374796c653d666c61742d73717561726526636f6c6f72413d32373331333326636f6c6f72423d626430303030](https://user-images.githubusercontent.com/96842235/171992080-cb229833-74b1-4f32-8bb7-29dfa2a1ba37.svg) ![68747470733a2f2f696d672e736869656c64732e696f2f62616467652f626173682d342e322532422d626c75652e7376673f7374796c653d666c61742d73717561726526636f6c6f72413d32373331333326636f6c6f72423d303064623030](https://user-images.githubusercontent.com/96842235/171992120-3013aece-0922-4562-8847-b410c70aafda.svg) ![68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f636c6f75642f6175746f6d617465642f763173317430723173683372332f616972676564646f6e2e7376673f7374796c653d666c61742d73717561726526636f6c6f72413d32373331333326636f6c6f72423d613961396139](https://user-images.githubusercontent.com/96842235/171992154-4d349752-1be6-4259-b504-5a235fda5411.svg)
+
 ![hfhf](https://user-images.githubusercontent.com/96842235/212391611-e8b058b0-b1f8-427f-ad48-d38945dd28b9.png)
+
+# PyDDoS
 
 ### Script creado en python para hacer ataques DoS
 Como bien prometi hace aproximadamente 2 semanas, cuando subi a mi github una herramienta llamada DoS, la cual dije que era una "beta" poco avanzada de lo que seria este script (De echo no tienen nada que ver), pero como el script era totalmente funcional decidi que seria algo positivo liberarlo. Puedes echarle un ojo [aqui](https://github.com/S3RGI09/DoS). Despues de estar varios dias pensando como puedo hacer un script mejor, me di cuenta que lo unico que tengo en la cabeza es un simple codigo de 9 lineas escrito en python, por lo que decidi buscar en foros, webs y un sin fin de mas cosas, hasta le pregunte a ChatGPT, pero despues de una recopilacion de ideas, decidi hacerlo. Me puse a programar como un loco y al final esto es lo que me salio.
