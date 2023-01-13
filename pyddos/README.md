@@ -39,8 +39,8 @@ options:
 Example:
     ./pyddos -d www.example.com -p 80 -T 2000 -Pyslow
     ./pyddos -d www.domain.com -s 100 -Request
-    ./pyddos -d www.google.com -Synflood -T 5000 -t 10.0```
-
+    ./pyddos -d www.google.com -Synflood -T 5000 -t 10.0
+```
 Aqui te sale el panel de ayuda, el script esta diseñado para seguir un orden de comandos, lo que hace que sea mas rapido de usar, pero mas dificil de aprender. La causa de esto fue porque queria salir de lo que habia echo siempre (aparte que crear paneles de eleccion en python es jodidamente complicao).
 
 ### Ejemplos:
