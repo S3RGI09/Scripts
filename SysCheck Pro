@@ -1,0 +1,109 @@
+import speedtest
+import socket
+import requests
+import platform
+import subprocess
+
+def check_firewall_status():
+    if platform.system() == "Linux":
+        # Implementación específica para Linux
+        pass
+    elif platform.system() == "Windows":
+        # Implementación específica para Windows
+        firewall_status = subprocess.run(["netsh", "advfirewall", "show", "allprofiles", "state"], capture_output=True, text=True)
+        print("Estado del Firewall:", firewall_status.stdout)
+    elif platform.system() == "Darwin":
+        # Implementación específica para MacOS
+        pass
+
+def check_ports_status():
+    if platform.system() == "Linux":
+        # Implementación específica para Linux
+        pass
+    elif platform.system() == "Windows":
+        # Implementación específica para Windows
+        ports_status = subprocess.run(["netstat", "-an"], capture_output=True, text=True)
+        print("Estado de los Puertos:", ports_status.stdout)
+    elif platform.system() == "Darwin":
+        # Implementación específica para MacOS
+        pass
+
+def check_internet_speed():
+    try:
+        output = subprocess.check_output(["ping", "-c", "3", "www.google.com"]).decode()
+        lines = output.split('\n')
+        for line in lines:
+            if "avg" in line:
+                parts = line.split('/')
+                return float(parts[4])
+    except Exception as e:
+        print("Error al medir la velocidad de la conexión:", e)
+    return 0
+
+def check_internet_connection():
+    try:
+        response = requests.get('https://www.google.com')
+        if response.status_code == 200:
+            return True
+    except:
+        pass
+    return False
+
+def check_tor_status():
+    if platform.system() == "Linux":
+        try:
+            output = subprocess.check_output(["service", "tor", "status"]).decode()
+            if "Active: active (running)" in output:
+                return True
+        except subprocess.CalledProcessError:
+            pass
+    elif platform.system() == "Windows":
+        # Implementación específica para Windows
+        pass
+    elif platform.system() == "Darwin":
+        # Implementación específica para MacOS
+        pass
+    return False
+
+def main():
+    print("Selecciona tu sistema operativo:")
+    print("1. Linux")
+    print("2. Windows")
+    print("3. MacOS")
+
+    choice = input("Ingresa el número correspondiente a tu sistema operativo: ")
+
+    if choice == '1':
+        # Verificar para Linux
+        print("Verificando para Linux...")
+        check_firewall_status()
+        check_ports_status()
+        internet_speed = check_internet_speed()
+        print("Velocidad de conexión a Internet:", internet_speed, "ms")
+        internet_connection = check_internet_connection()
+        print("Conexión a Internet:", "Conectado" if internet_connection else "Desconectado")
+        tor_status = check_tor_status()
+        print("Estado de Tor:", "Activo" if tor_status else "Inactivo")
+    elif choice == '2':
+        # Verificar para Windows
+        print("Verificando para Windows...")
+        check_firewall_status()
+        check_ports_status()
+        internet_speed = check_internet_speed()
+        print("Velocidad de conexión a Internet:", internet_speed, "ms")
+        internet_connection = check_internet_connection()
+        print("Conexión a Internet:", "Conectado" if internet_connection else "Desconectado")
+    elif choice == '3':
+        # Verificar para MacOS
+        print("Verificando para MacOS...")
+        check_firewall_status()
+        check_ports_status()
+        internet_speed = check_internet_speed()
+        print("Velocidad de conexión a Internet:", internet_speed, "ms")
+        internet_connection = check_internet_connection()
+        print("Conexión a Internet:", "Conectado" if internet_connection else "Desconectado")
+    else:
+        print("Selección no válida")
+
+if __name__ == "__main__":
+    main()
