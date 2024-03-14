@@ -27,4 +27,4 @@ Si deseas contribuir a este proyecto, ¡eres bienvenido! Siéntete libre de hace
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+Este proyecto está bajo la Licencia GPL. Para más detalles, consulta el archivo [GPL-LICENSE](GPL-LICENSE).
